@@ -1,0 +1,1 @@
+. "/home/mostafa/CLionProjects/qt_nn/build/conanrunenv-release-x86_64.sh"

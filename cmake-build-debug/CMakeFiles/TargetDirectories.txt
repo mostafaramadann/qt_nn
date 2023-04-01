@@ -1,0 +1,5 @@
+/home/mostafa/CLionProjects/qt_nn/cmake-build-debug/CMakeFiles/qt_nn.dir
+/home/mostafa/CLionProjects/qt_nn/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mostafa/CLionProjects/qt_nn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mostafa/CLionProjects/qt_nn/cmake-build-debug/CMakeFiles/qt_nn_autogen_timestamp_deps.dir
+/home/mostafa/CLionProjects/qt_nn/cmake-build-debug/CMakeFiles/qt_nn_autogen.dir
