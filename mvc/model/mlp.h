@@ -6,6 +6,7 @@
 #include <algorithm>
 #include <ctime>
 #include <numeric>
+#include <assert.h>
 class Perceptron{
 public:
     std::vector<double> weights;

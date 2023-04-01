@@ -11,6 +11,11 @@ Perceptron::Perceptron(int inputs, double bias) {
     std::generate(weights.begin(),weights.end(),frand);
 
 }
+
+void Perceptron::set_weights(std::vector<double> w_init) {
+    assert(w_init.size()== this->weights.size());
+    weights = w_init; // vector stl copies using overloaded assignment operator
+}
 double Perceptron::sigmoid(double x){
     return  1/(1+ exp(-x));
 }
