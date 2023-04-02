@@ -3,7 +3,7 @@
 #include <QApplication>
 #include <QGridLayout>
 #include <QPainter>
-
+#include "mlp.h"
 class DeepPanel : public QMainWindow{
 private:
     QGridLayout* layout = new QGridLayout();
@@ -29,6 +29,16 @@ int main(int argc, char* argv[]) {
     DeepPanel* dp = new DeepPanel(QSize(1000,500));
     dp->showMaximized();
     dp->update();
-    std::cout << "Hello, World!" << std::endl;
+
+    MultiLayerPerceptron mlp = MultiLayerPerceptron({2,2,1});  //mlp
+    mlp.set_weights({{{-10,-10,15},{15,15,-10}}, {{10,10,-15}}});
+
+//    cout<<"XOR:"<<endl;
+//    cout<<"0 0 = "<<mlp.run({0,0})[0]<<endl;
+//    cout<<"0 1 = "<<mlp.run({0,1})[0]<<endl;
+//    cout<<"1 0 = "<<mlp.run({1,0})[0]<<endl;
+//    cout<<"1 1 = "<<mlp.run({1,1})[0]<<endl;
+
+
     return app.exec();
 }
